@@ -1,0 +1,16 @@
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.exe.config
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.exe
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.pdb
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\bin\Debug\ConsultarCep.xml
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.vbproj.AssemblyReference.cache
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.vbproj.GenerateResource.cache
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.vbproj.CoreCompileInputs.cache
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.exe
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.xml
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.pdb
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.exe.licenses
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\Consulta.DBF9F154.Up2Date
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\WindowsApplication1.FrmConsultaCep.resources
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\Interop.ADODB.dll
+C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\obj\Debug\ConsultarCep.vbproj.ResolveComReference.cache

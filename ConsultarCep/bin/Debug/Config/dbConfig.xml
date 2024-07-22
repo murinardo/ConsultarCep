@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+  <ConfigDatabase>
+    <StringConnection>Password=p@ssw0rd013459;Persist Security Info=True;User ID=sa;Initial Catalog=AGROACTI_GERMINEX_PRD;Data Source=srv-acti-02\dev,5172;Connect Timeout = 999;</StringConnection>
+    <DataSource>srv-acti-02\dev,5172</DataSource>
+    <InitialCatalog>AGROACTI_GERMINEX_PRD</InitialCatalog>
+    <UserID>sa</UserID>
+    <Password>p@ssw0rd013459</Password>
+  </ConfigDatabase>
