@@ -22,7 +22,7 @@ Public Class FrmConsultaCep
             Select Case e.KeyCode
 
                 Case Keys.Enter
-                    If InStr(sender.name, "Filtro", CompareMethod.Text) > 0 Then Call LoadGridCEP() Else Control_Enter(sender)
+                    'If InStr(sender.name, "Filtro", CompareMethod.Text) > 0 Then Call LoadGridCEP() Else Control_Enter(sender)k
 
             End Select
 
@@ -201,8 +201,8 @@ Public Class FrmConsultaCep
 
         Try
 
-1:          'Verifica se Existe o Arquivo Config.xml
-            If File.Exists(ApplicationPath() & "Config\dbConfig.xml") = False Then
+            'Verifica se Existe o Arquivo Config.xml
+            If File.Exists(ApplicationPath() & "Config\db.config") = False Then
                 MsgBox("Arquivo de Configuração do Banco de Dados não foi encontrado.", MsgBoxStyle.Critical)
             Else
                 oClsConfigXML = New clsConfigDatabase

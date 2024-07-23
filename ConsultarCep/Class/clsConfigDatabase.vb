@@ -104,7 +104,7 @@ Public Class clsConfigDatabase
             oXmlDocument = New XmlDocument()
 
             'Abre o Arquivo XML
-            oXmlDocument.Load(ApplicationPath() & "Config\dbConfig.xml")
+            oXmlDocument.Load(ApplicationPath() & "Config\db.config")
 
             'Inicia TreeView
             IniciarTreeView()

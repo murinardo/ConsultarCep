@@ -1,4 +1,7 @@
-﻿Imports Janus.Windows.GridEX
+﻿Imports Janus.Windows.EditControls
+Imports Janus.Windows.GridEX
+Imports Janus.Windows.GridEX.EditControls
+Imports Janus.Windows.UI.Tab
 Imports System.Data.SqlClient
 Imports System.Xml
 
@@ -60,7 +63,7 @@ Module modDeclaration
     End Function
 
     Public Function GetConnectionString() As String
-        Dim configFilePath As String = "C:\Users\leonardo.inacio\Documents\Desafio Paschoalotto\ConsultarCep\ConsultarCep\bin\Debug\Config\config.config"
+        Dim configFilePath As String = "C:\Projetos\ConsultarCep\ConsultarCep\bin\Debug\Config\db.config"
         Dim doc As New XmlDocument()
         doc.Load(configFilePath)
 
@@ -115,6 +118,29 @@ Module modDeclaration
         End Try
 
     End Function
+
+    Public Sub Control_Enter(ByVal sender As Object)
+
+        Try
+
+            'Verifica o Tipo de Controle
+            If Not TypeOf (sender) Is UIButton And
+                Not TypeOf (sender) Is GridEX And
+                Not TypeOf (sender) Is UserControl And
+                Not TypeOf (sender) Is UITab And
+                Not (TypeOf (sender) Is EditBox AndAlso CType(sender, EditBox).Multiline = True) And
+                sender.name <> "" Then
+
+                'Muda para o próximo Controle
+                System.Windows.Forms.SendKeys.Send("{TAB}")
+
+            End If
+
+        Catch ex As Exception
+            Throw ex
+        End Try
+
+    End Sub
 
     Public Sub ConfigurarDataMemberGrid(ByVal oGrid As GridEX)
         Try
